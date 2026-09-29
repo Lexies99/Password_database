@@ -105,4 +105,4 @@ docker-compose up -d --build
 ---
 
 ## 📄 License
-MIT License. Developed for GIMPA Institutional Systems.\n
+MIT License. Developed for GIMPA Institutional Systems.

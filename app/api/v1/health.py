@@ -19,4 +19,4 @@ def health_check(db: Session = Depends(get_db)):
         "service": settings.APP_NAME,
         "version": settings.APP_VERSION,
         "database": db_status
-    }\n
+    }

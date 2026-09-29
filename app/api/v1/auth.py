@@ -163,4 +163,4 @@ def sync_password(
         email=user.email,
         message="Central password updated successfully. Changes are active across all apps.",
         updated_at=user.last_password_change_at
-    )\n
+    )

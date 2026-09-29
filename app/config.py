@@ -27,4 +27,4 @@ class Settings(BaseSettings):
         env_file = ".env"
         extra = "allow"
 
-settings = Settings()\n
+settings = Settings()

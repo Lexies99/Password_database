@@ -15,4 +15,4 @@ class ClientApp(Base):
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
     def __repr__(self):
-        return f"<ClientApp id={self.id} name={self.client_name}>"\n
+        return f"<ClientApp id={self.id} name={self.client_name}>"

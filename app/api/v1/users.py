@@ -163,4 +163,4 @@ def assign_role(
         "primary_role": user.role,
         "roles": current_roles,
         "is_admin": user.is_admin
-    }\n
+    }

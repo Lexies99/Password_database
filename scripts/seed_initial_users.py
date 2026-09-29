@@ -93,4 +93,4 @@ def seed_users():
         db.close()
 
 if __name__ == "__main__":
-    seed_users()\n
+    seed_users()

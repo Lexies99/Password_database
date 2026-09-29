@@ -16,4 +16,4 @@ class AuditLog(Base):
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
     def __repr__(self):
-        return f"<AuditLog id={self.id} event={self.event_type} user={self.user_email}>"\n
+        return f"<AuditLog id={self.id} event={self.event_type} user={self.user_email}>"

@@ -18,4 +18,4 @@ services:
       - password_db_data:/data
 
 volumes:
-  password_db_data:\n
+  password_db_data:

@@ -37,4 +37,4 @@ class TokenResponse(BaseModel):
     access_token: str
     token_type: str = "bearer"
     expires_in: int
-    user: Dict[str, Any]\n
+    user: Dict[str, Any]

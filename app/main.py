@@ -47,4 +47,4 @@ def root():
         "status": "running",
         "docs_url": "/docs",
         "sso_verify_endpoint": "/api/v1/auth/verify-credentials"
-    }\n
+    }

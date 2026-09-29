@@ -44,4 +44,4 @@ def verify_service_api_key(api_key: Optional[str]) -> bool:
     """Verify service-to-service internal API calls."""
     if not api_key:
         return False
-    return secrets.compare_digest(api_key, settings.MASTER_API_KEY)\n
+    return secrets.compare_digest(api_key, settings.MASTER_API_KEY)

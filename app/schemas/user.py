@@ -41,4 +41,4 @@ class UserResponse(UserBase):
 class RoleAssignmentRequest(BaseModel):
     email: EmailStr
     role_title: str
-    is_secondary: bool = True\n
+    is_secondary: bool = True

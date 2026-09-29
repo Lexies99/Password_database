@@ -13,4 +13,4 @@ def test_password_hashing():
     pwd = "MySecretPassword123!"
     h = hash_password(pwd)
     assert verify_password(pwd, h) is True
-    assert verify_password("WrongPassword", h) is False\n
+    assert verify_password("WrongPassword", h) is False
